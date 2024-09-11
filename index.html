@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div id="nav">
+          <ul>
+            <li><a href="home">Home</a></li>
+            <li><a href="about">About</a></li>
+            <li><a href="more">More</a></li>
+          </ul>
+        </div>
+        <!--..............................................-->
+        <div id="icon">
+          <ul>
+            <li>
+              <a href=""><i class="fa-solid fa-phone"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa-solid fa-map-location-dot"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa-brands fa-facebook"></i></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!--............................................-->
+    <div class="flex-container">
+      <div class="flex">
+        <p>Hello World!</p>
+        <b>touch in the middle</b>
+      </div>
+
+      <div class="flex1">
+        <img class="pic" src="web-development-4202909_1280.webp" alt="ss" />
+      </div>
+    </div>
+    <br /><br />
+    <br />
+    <hr />
+    <!--...............................................-->
+    <main>
+      <div class="grid">
+        <div class="box box1">Box1</div>
+        <div class="box box2">Box2</div>
+        <div class="box box3">Box3</div>
+        <div class="box box4">Box4</div>
+        <div class="box box5">Box5</div>
+        <div class="box box6">Box6</div>
+        <div class="box box7">Box7</div>
+        <div class="box box8">Box8</div>
+        <div class="box box9">Box9</div>
+      </div>
+    </main>
+    <br /><br />
+    <hr />
+    <!--..................................................-->
+    <div id="table">
+      <table style="width: 100%; margin-top: 30px" border="3">
+        <tr>
+          <th>Day</th>
+          <th>Morning</th>
+          <th>Afternoon</th>
+        </tr>
+
+        <tr>
+          <td>Saturday</td>
+          <td>
+            <dl>
+              <dt><strong>Breakfast</strong></dt>
+              <dd>
+                This is a realy nice Restaurant. I set a link and you can check
+                it guys:
+                <a
+                  target="_blank"
+                  href="https://www.tripadvisor.at/Restaurant_Review-g190454-d10121014-Reviews-Cafe_Benedikt-Vienna.html"
+                  >Click on it</a
+                >
+              </dd>
+              <br />
+              <dt><strong>Visiting an Historical Konzerthaus</strong></dt>
+              <dd>
+                This Haus was made in 1911 in Barock style:
+                <a
+                  target="_blank"
+                  href="https://vienna-tourist.com/konzerthaus-wien/"
+                  >Here can you chack it</a
+                >
+              </dd>
+            </dl>
+          </td>
+          <td>
+            <dl>
+              <dt><strong>We try an Austrian specialitiy</strong></dt>
+              <dd>
+                This is a traditional fodd in Austria:
+                <a
+                  target="_blank"
+                  href="https://de.wikipedia.org/wiki/Schnitzel#/media/Datei:Wiener-Schnitzel02.jpg"
+                  >Hier is a picture from the food</a
+                >
+              </dd>
+              <br />
+              <dt><strong>Go to the bar/Disco</strong></dt>
+              <dd>
+                itt will be fun:
+                <a
+                  target="_blank"
+                  href="https://www.wien.info/de/essen-trinken/bars-clubs/clubs-discos/o-der-klub-354372"
+                  >Chack the place</a
+                >
+              </dd>
+            </dl>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Sunday</td>
+          <td>
+            <ol>
+              <dt>
+                <strong>
+                  <li>Eating in a Hotel</li>
+                </strong>
+              </dt>
+
+              <dd>
+                <input type="radio" name="..." value="yes" />Yes <br />
+                <input type="radio" name="..." value="no" />No
+              </dd>
+
+              <dt>
+                <strong>
+                  <li>Eating in a restaurant</li>
+                </strong>
+              </dt>
+
+              <dd>
+                <input type="radio" name=".." value="yes" />Yes <br />
+                <input type="radio" name=".." value="no" />No
+              </dd>
+            </ol>
+          </td>
+          <td>
+            <ol>
+              <dt>
+                <strong>
+                  <li>Visit a Historical Church</li>
+                </strong>
+              </dt>
+
+              <dd>
+                <input type="radio" name="...." value="yes" />Yes <br />
+                <input type="radio" name="...." value="no" />No
+              </dd>
+
+              <dt>
+                <strong>
+                  <li>Go shopping</li>
+                </strong>
+              </dt>
+            </ol>
+            <dd>
+              <input type="radio" name="." value="yes" />Yes <br />
+              <input type="radio" name="." value="no" />No
+            </dd>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <br /><br />
+    <hr />
+    <!--.................................-->
+    <div
+      style="
+        background-image: linear-gradient(#1b4f72, #21618c, #2874a6, #2e86c1);
+        margin: 30px 250px 40px 250px;
+      "
+      id="form"
+    >
+      ,
+      <h1 style="color: whitesmoke">Registration Form</h1>
+      <br />
+      <form action="Form"></form>
+      <label for="firstname">Firstname:</label>
+      <input
+        style="background-color: #21618c"
+        type="text"
+        name="firstname"
+        id="firstname"
+        placeholder=" Firstname"
+      />
+      <br /><br />
+      <label for="lastname">Lastname:</label>
+      <input
+        style="background-color: #4a6c56"
+        type="text"
+        name="lastname"
+        id="lastname"
+        placeholder="Lastname"
+      />
+      <br /><br />
+      <label for="course">Course:</label>
+      <select style="background-color: #0b444c" id="course" name="course">
+        <option value="html">HTML</option>
+        <option value="css">CSS</option>
+        <option value="javascript">JAVASCRIPT</option>
+      </select>
+      <br /><br />
+      <label for="gender">Gender:</label> <br />
+      <input type="radio" name="gender" value="male" />Male
+      <br />
+      <input type="radio" name="gender" value="female" />Female <br /><br />
+
+      <label for="hobbies">Hobbies:</label> <br />
+      <input type="checkbox" name="hobbies" value="programming" />Programming
+      <br />
+      <input type="checkbox" name="hobbies" value="basketball" />Basketball
+      <br />
+      <input type="checkbox" name="hobbies" value="football" />Football <br />
+      <input type="checkbox" name="hobbies" value="readingnovel" />Reading Novel
+      <br />
+      <br /><br />
+      <label for="phone">Phone:</label>
+      <input
+        style="background-color: #457290"
+        type="text"
+        name="phone"
+        id="phone"
+        placeholder="Phone"
+      />
+      <br /><br />
+
+      <label for="message">Address:</label> <br />
+      <textarea
+        style="background-color: #074873"
+        name="message"
+        id="message"
+        rows="5"
+        cols="30"
+      ></textarea>
+      <br /><br />
+
+      <label for="email">Email:</label>
+      <input
+        style="background-color: #21618c"
+        type="text"
+        name="email"
+        id="email"
+        placeholder="Email"
+      />
+      <br /><br />
+      <label for="password">Password</label>
+      <input
+        style="background-color: #abc085"
+        type="text"
+        name="password"
+        id="password"
+        placeholder="Password"
+      />
+      <br /><br /><br />
+
+      <input
+        style="background-color: #ffffff; color: magenta"
+        type="submit"
+        value="Submit"
+      />
+      <input
+        style="background-color: #ffffff; color: magenta"
+        type="reset"
+        value="Reset"
+      />
+      <br />
+      <br />
+    </div>
+
+    <!--.............................................-->
+
+    <hr />
+
+    <div id="iframe">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d177079.75598379958!2d19.50931282353369!3d46.09354497060927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x474366c168af38f9%3A0xdf19bd922a3d838e!2sSubotica%2C%20Serbia!5e0!3m2!1sen!2sat!4v1725453628001!5m2!1sen!2sat"
+        width="600"
+        height="450"
+        style="border: 0; margin-right: 10px"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+      <br />
+      <iframe
+        width="640px"
+        height="450"
+        style="margin-left: 10px"
+        src="https://www.youtube.com/embed/8RB6cKv-Hkg?si=S_8xhWeZGgNKubAZ"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+    </div>
+
+    <!--...............................................................-->
+
+    <script
+      src="https://kit.fontawesome.com/2424976a25.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
